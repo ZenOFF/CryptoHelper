@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\CryptoCurrencyBuySellHelper.csproj.GenerateResource.Cache
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\CryptoCurrencyBuySellHelper.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.exe.config
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.Form1Main.resources
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.Properties.Resources.resources
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.SetSortSettings.resources
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.StudiesSettings.resources
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.exe.manifest
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.application
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.exe
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.pdb
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.exe.manifest
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.application
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.exe
+C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.pdb
