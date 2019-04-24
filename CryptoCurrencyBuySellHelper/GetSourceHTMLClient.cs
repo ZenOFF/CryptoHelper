@@ -1,4 +1,5 @@
-﻿using System.Net;
+﻿using System;
+using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -24,9 +25,9 @@ namespace NoviceCryptoTraderAdvisor
     {
         private readonly HttpClient client = new HttpClient();
 
-        public GetSourceHTMLClient()
+        public GetSourceHTMLClient(int CountConnections)
         {
-            ServicePointManager.DefaultConnectionLimit = 1;
+            ServicePointManager.DefaultConnectionLimit = CountConnections;
         }
 
         private async Task<string> GetSourceByPageIdAsync(string urlPage) //возвращает весь код страницы
@@ -35,7 +36,7 @@ namespace NoviceCryptoTraderAdvisor
             try
             {
                 var response = await client.GetAsync(urlPage);
-                //Console.WriteLine(response.StatusCode + " " + urlPage);
+                Console.WriteLine(response.StatusCode + " " + urlPage);
                 if (response != null && response.StatusCode == HttpStatusCode.OK)
                 {
                     source = await response.Content.ReadAsStringAsync();
@@ -63,7 +64,7 @@ namespace NoviceCryptoTraderAdvisor
 
         public async Task<string> GetMarketTicksAsync(string marketName, string interval) //получаем данные графика
         {
-            string ResponseChart = await GetSourceByPageIdAsync("https://international.bittrex.com/Api/v2.0/pub/market/GetTicks?marketName=" + marketName + "&tickInterval=" + interval);
+            string ResponseChart = await GetSourceByPageIdAsync("https://bittrex.com/Api/v2.0/pub/market/GetTicks?marketName=" + marketName + "&tickInterval=" + interval);
             return ResponseChart;
         }
     }

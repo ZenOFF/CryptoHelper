@@ -61,7 +61,7 @@ namespace NoviceCryptoTraderAdvisor
         //заполняем список при запуске
         private async void FillingListCurrencies()
         {
-            GetSourceHTMLClient GetHTML = new GetSourceHTMLClient();
+            GetSourceHTMLClient GetHTML = new GetSourceHTMLClient(1);
             //получаем весь список от API
             string InputLongString = await GetHTML.GetMarketSummariesAsync();
 
@@ -147,12 +147,14 @@ namespace NoviceCryptoTraderAdvisor
             {
                 //блокируем повторное нажатие до завершения обновления
                 BlockButton(false);
-
+                int ii = 1;
                 foreach (MarketPair marketPair in _activeMarketList)
                 {
+                    Console.WriteLine(ii);
+                    ii++;
                     marketPair.UpdateInfoAsync(ChartTimestamp);
                     //для ограничения количества запросов к серверу
-                    await Task.Delay(2000); 
+                    await Task.Delay(4000); 
                 }
             }
         }

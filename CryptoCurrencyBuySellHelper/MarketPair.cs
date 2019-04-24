@@ -334,7 +334,7 @@ namespace NoviceCryptoTraderAdvisor
             Label MACDSignalValuelabel = _elementsOnPanel[19] as Label;
             Label MACDHistogramValuelabel = _elementsOnPanel[20] as Label;
 
-            GetSourceHTMLClient _queryAPI = new GetSourceHTMLClient();
+            GetSourceHTMLClient _queryAPI = new GetSourceHTMLClient(1);
             Conclusion_TechAnalisis conclusion_TechAnalisis = new Conclusion_TechAnalisis();
             Color colorElement = Color.Gray;
 
