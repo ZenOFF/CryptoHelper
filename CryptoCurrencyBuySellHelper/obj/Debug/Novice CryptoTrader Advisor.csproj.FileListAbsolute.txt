@@ -1,81 +1,3 @@
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe.config
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe.manifest
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.application
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.pdb
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\ru\Novice CryptoTrader Advisor.resources.dll
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csprojAssemblyReference.cache
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.AboutForm.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.HelpToTrader.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.Properties.Resources.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.SetSortSettings.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.StudiesSettings.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.AboutForm.ru.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.ru.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.HelpToTrader.ru.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.SetSortSettings.ru.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.StudiesSettings.ru.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\ru\Novice CryptoTrader Advisor.resources.dll
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe.manifest
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.application
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.pdb
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.FormHelp.MainTraderHelp.resources
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\Main.jpg
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\LiteIco.png
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\EtherIco.png
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\BitcoinIco.png
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\BitcoinCashIco.png
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\ADVicon.png
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\MainRus.jpg
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SortSettings.jpg
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SortSettingsRus.jpg
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SettingsStudies.jpg
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SettingsStudiesRus.jpg
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\ADVico.ico
-C:\Users\Admin\Desktop\CryptoCurrencyBuySellHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\refreshButton.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\MainRus.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SettingsStudies.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SettingsStudiesRus.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SortSettings.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SortSettingsRus.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\ADVico.ico
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\refreshButton.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\Main.jpg
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\LiteIco.png
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\EtherIco.png
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\BitcoinIco.png
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\BitcoinCashIco.png
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Resources\ADVicon.png
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe.config
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe.manifest
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.application
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.pdb
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\bin\Debug\ru\Novice CryptoTrader Advisor.resources.dll
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.AboutForm.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.FormHelp.MainTraderHelp.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.HelpToTrader.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.Properties.Resources.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.SetSortSettings.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.StudiesSettings.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.AboutForm.ru.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.ru.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.HelpToTrader.ru.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.SetSortSettings.ru.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.StudiesSettings.ru.resources
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csproj.GenerateResource.cache
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csproj.CoreCompileInputs.cache
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\ru\Novice CryptoTrader Advisor.resources.dll
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe.manifest
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.application
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.pdb
-C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\MainRus.jpg
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SettingsStudies.jpg
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Debug\Resources\SettingsStudiesRus.jpg
@@ -95,7 +17,6 @@ C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurren
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.exe
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Debug\Novice CryptoTrader Advisor.pdb
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Debug\ru\Novice CryptoTrader Advisor.resources.dll
-C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csprojAssemblyReference.cache
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.AboutForm.resources
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.FormHelp.MainTraderHelp.resources
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.resources
@@ -111,6 +32,7 @@ C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurren
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csproj.GenerateResource.cache
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\ru\Novice CryptoTrader Advisor.resources.dll
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.TrustInfo.xml
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe.manifest
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.application
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe

@@ -13,6 +13,7 @@
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <IsWebBootstrapper>false</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>C:\Users\Admin\Desktop\Helper\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -28,7 +29,6 @@
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
     <BootstrapperEnabled>true</BootstrapperEnabled>
-    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -69,6 +69,11 @@
   <PropertyGroup>
     <ApplicationIcon>Resources\ADVico.ico</ApplicationIcon>
   </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -182,6 +187,9 @@
     <EmbeddedResource Include="StudiesSettings.ru.resx">
       <DependentUpon>StudiesSettings.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="bin\Debug\Novice CryptoTrader Advisor.exe.config" />
+    <None Include="bin\Release\Novice CryptoTrader Advisor.exe.config" />
+    <None Include="Properties\app.manifest" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -211,6 +219,19 @@
     <None Include="Resources\ADVico.ico">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+    <None Include="bin\Debug\Novice CryptoTrader Advisor.exe" />
+    <Content Include="bin\Debug\Novice CryptoTrader Advisor.pdb" />
+    <None Include="bin\Debug\ru\Novice CryptoTrader Advisor.resources.dll" />
+    <None Include="bin\Release\Novice CryptoTrader Advisor.exe" />
+    <Content Include="bin\Release\Novice CryptoTrader Advisor.pdb" />
+    <None Include="bin\Release\ru\Novice CryptoTrader Advisor.resources.dll" />
+    <Content Include="Resources\ADVicon.ico" />
+    <Content Include="Resources\HelpImagesEng\Main.jpg" />
+    <Content Include="Resources\HelpImagesEng\SettingsStudies.jpg" />
+    <Content Include="Resources\HelpImagesEng\Sort settings.jpg" />
+    <Content Include="Resources\HelpImagesRus\Main.jpg" />
+    <Content Include="Resources\HelpImagesRus\SettingsStudies.jpg" />
+    <Content Include="Resources\HelpImagesRus\Sort settings.jpg" />
     <Content Include="Resources\MainRus.jpg">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -247,6 +268,10 @@
     <None Include="Resources\ADVicon.png">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="obj\Debug\" />
+    <Folder Include="obj\Release\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

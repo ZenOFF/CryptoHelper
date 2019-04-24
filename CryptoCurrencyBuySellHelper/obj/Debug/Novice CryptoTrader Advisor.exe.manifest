@@ -10,22 +10,22 @@
   <trustInfo>
     <security>
       <applicationRequestMinimum>
-        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
         <defaultAssemblyRequest permissionSetReference="Custom" />
       </applicationRequestMinimum>
       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
-        <!--
-          Параметры манифеста UAC
-          При необходимости изменить уровень контроля учетных записей Windows замените узел 
-          requestedExecutionLevel одним из следующих значений.
+        <!-- Параметры манифеста UAC
+             Если вы хотите изменить уровень контроля учетных записей Windows, замените узел 
+             requestedExecutionLevel на один из следующих.
 
         <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
         <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
         <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
 
-         Если вы хотите использовать виртуализацию файлов и реестра для обратной 
-         совместимости, удалите узел requestedExecutionLevel.
-    -->
+            При указании элемента requestedExecutionLevel будет отключена виртуализация файлов и реестра. 
+            Удалите этот элемент, если виртуализация требуется приложению для обратной
+            совместимости.
+        -->
         <requestedExecutionLevel level="asInvoker" uiAccess="false" />
       </requestedPrivileges>
     </security>
@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0LSwyLYIrV/xj11GvwvbbMMCtatBKmbs536obrxxf9I=</dsig:DigestValue>
+        <dsig:DigestValue>1G4dfVCjj9Dv1QBMlfjbLch6F7hofmtytSOr75+VZzg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,10 +62,28 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1VZOTgypIVrIGwsHHkCBEag2Q4eQoKBn5DUjBeD9hog=</dsig:DigestValue>
+        <dsig:DigestValue>5sMdS075Xr+YZ4LLZay7wS+PEacvDbfHkPf1gEgDYZ0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
+  <file name="bin\Debug\Novice CryptoTrader Advisor.pdb" size="144896">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>1gXm9uaoo3owRd+1tfJ7j5anVy6zJrW+7u6U5m9ws9A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="bin\Release\Novice CryptoTrader Advisor.pdb" size="134656">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>mqAmxq4aQtxIYhD6dRxiUZ71L12Orr1p0PiJl0O6ds4=</dsig:DigestValue>
+    </hash>
+  </file>
   <file name="Novice CryptoTrader Advisor.exe.config" size="229">
     <hash>
       <dsig:Transforms>
@@ -82,6 +100,69 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>HLoe9Q0u2pTklUniJi5lUA/BDqi8Gm8lY9x9ZtmJSdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\ADVicon.ico" size="10041">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>HLoe9Q0u2pTklUniJi5lUA/BDqi8Gm8lY9x9ZtmJSdY=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HelpImagesEng\Main.jpg" size="410922">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>Cfj1GP9lBvEabU2MeU2fzYrqiCd8Lm4AHxg0DnZow30=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HelpImagesEng\SettingsStudies.jpg" size="175963">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>sJHabd0SY7x+CNcf6SHZS1GZoiwWypIZi0+fRQcg+Ko=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HelpImagesEng\Sort settings.jpg" size="74669">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>EqjZCejjA+rw3BVI5Avl3Tn0DC/vqFH7wVml33lmkN0=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HelpImagesRus\Main.jpg" size="435269">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>s2P6fkOqaN6/xzb5OnT7HFPvAY0jUjHjrsriHz3Oz6A=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HelpImagesRus\SettingsStudies.jpg" size="192520">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>arDGAlFmTSrUTAmZgAul4zZat4ZOIrgNgDhbxFdv28Q=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Resources\HelpImagesRus\Sort settings.jpg" size="83002">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>i027RSZ1p7t+wMcslHWDiVBQqmpqfHlcknBbVCFtq1s=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Resources\MainRus.jpg" size="435269">
@@ -129,4 +210,21 @@
       <dsig:DigestValue>i027RSZ1p7t+wMcslHWDiVBQqmpqfHlcknBbVCFtq1s=</dsig:DigestValue>
     </hash>
   </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- Список версий Windows, на которых это приложение было протестировано
+           и будет работать. Раскомментируйте соответствующие элементы, чтобы ОС Windows 
+           автоматически выбрала наиболее совместимое окружение. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
 </asmv1:assembly>

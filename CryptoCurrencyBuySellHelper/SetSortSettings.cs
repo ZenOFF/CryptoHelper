@@ -26,27 +26,28 @@ namespace NoviceCryptoTraderAdvisor
 
         private void SetSortSettings_Load(object sender, EventArgs e)
         {
-            MdiClient ctlMDI;
+            //MdiClient ctlMDI;
             // Loop through all of the form's controls looking
             // for the control of type MdiClient.
-            foreach (Control ctl in this.Controls)
-            {
-                try
-                {
-                    // Attempt to cast the control to type MdiClient.
-                    ctlMDI = (MdiClient)ctl;
-                    // Set the BackColor of the MdiClient control.
-                    ctlMDI.BackColor = this.BackColor;
-                }
+            this.Controls[0].BackColor= this.BackColor;
+//            foreach (Control ctl in this.Controls)
+//            {
+//                try
+//                {
+//                    // Attempt to cast the control to type MdiClient.
+//                    ctlMDI = (MdiClient)ctl;
+//                    // Set the BackColor of the MdiClient control.
+//                    ctlMDI.BackColor = this.BackColor;
+//                }
 
-#pragma warning disable CS0168 // Переменная объявлена, но не используется
-                catch (InvalidCastException exc)
-#pragma warning restore CS0168 // Переменная объявлена, но не используется
+//#pragma warning disable CS0168 // Переменная объявлена, но не используется
+//                catch (InvalidCastException exc)
+//#pragma warning restore CS0168 // Переменная объявлена, но не используется
 
-                {
-                    // Catch and ignore the error if casting failed.
-                }
-            }
+//                {
+//                    // Catch and ignore the error if casting failed.
+//                }
+//            }
         }
 
         //закрытие формы и запуск сортировки
@@ -105,7 +106,7 @@ namespace NoviceCryptoTraderAdvisor
         {
             for (int i = _activeMarketList.Count - 1; i >= 0; i--)
             {
-                //удаляем если обхём ниже заданного
+                //удаляем если объём ниже заданного
                 if (_activeMarketList[i].VolumeValue < _lowLevelVolume)
                 {
                     _activeMarketList[i].DeletePair();

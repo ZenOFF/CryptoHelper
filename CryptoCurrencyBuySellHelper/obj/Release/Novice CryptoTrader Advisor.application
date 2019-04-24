@@ -7,14 +7,14 @@
     <framework targetVersion="4.7" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Novice CryptoTrader Advisor.exe.manifest" size="6993">
+    <dependentAssembly dependencyType="install" codebase="Novice CryptoTrader Advisor.exe.manifest" size="12041">
       <assemblyIdentity name="Novice CryptoTrader Advisor.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>3+csjMrrTduA/lI+SKYPWxSk7yFy4ZQtR2TFXa7GoSY=</dsig:DigestValue>
+        <dsig:DigestValue>FwYeCMmYDUToFPDs9hR7x4iq5s+3DXI/n2YrjKytd9c=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
