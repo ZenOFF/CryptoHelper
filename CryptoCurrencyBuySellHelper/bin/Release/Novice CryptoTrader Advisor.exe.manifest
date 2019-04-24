@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Novice CryptoTrader Advisor.exe" size="904704">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Novice CryptoTrader Advisor.exe" size="905728">
       <assemblyIdentity name="Novice CryptoTrader Advisor" version="0.8.0.3" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>l95wLM+/BFayGm5VAR+/2WD/4rID4xvOgDdmtiY2dU4=</dsig:DigestValue>
+        <dsig:DigestValue>fjJevbAFa1ADZLN182WtKUOGP5yq20wfJ67Euig9tmg=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,7 +62,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Ra2njyC6jtICLKriX/2/TC9HnQtfnz4Tx9bfg/Kx/uw=</dsig:DigestValue>
+        <dsig:DigestValue>9A0nz/oiUOtjUkCBwobWeZ8YLvbJ3odl6GfGJn178+0=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

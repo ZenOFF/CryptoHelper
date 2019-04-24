@@ -115,3 +115,42 @@ C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\
 C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.application
 C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.exe
 C:\Users\Admin\Desktop\VisualStudio Projects\CryptoCurrencyBuySellHelperBittrex\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.pdb
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\MainRus.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\SettingsStudies.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\SettingsStudiesRus.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\SortSettings.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\SortSettingsRus.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\ADVico.ico
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\refreshButton.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\Main.jpg
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\LiteIco.png
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\EtherIco.png
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\BitcoinIco.png
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\BitcoinCashIco.png
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Resources\ADVicon.png
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.exe.config
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.exe.manifest
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.application
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.exe
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\Novice CryptoTrader Advisor.pdb
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\bin\Release\ru\Novice CryptoTrader Advisor.resources.dll
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.AboutForm.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.FormHelp.MainTraderHelp.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.HelpToTrader.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.Properties.Resources.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.SetSortSettings.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.StudiesSettings.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.AboutForm.ru.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.LanguageString.DynamicElements.ru.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.HelpToTrader.ru.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.SetSortSettings.ru.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\NoviceCryptoTraderAdvisor.StudiesSettings.ru.resources
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.csproj.GenerateResource.cache
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\ru\Novice CryptoTrader Advisor.resources.dll
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.exe.manifest
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.application
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.exe
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Release\Novice CryptoTrader Advisor.pdb

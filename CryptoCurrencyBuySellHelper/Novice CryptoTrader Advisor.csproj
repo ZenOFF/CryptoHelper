@@ -91,6 +91,7 @@
     </Compile>
     <Compile Include="CompareMarketPair.cs" />
     <Compile Include="Conclusion_TechAnalisis.cs" />
+    <Compile Include="DiagSpeed.cs" />
     <Compile Include="DirectionSort.cs" />
     <Compile Include="FormHelp\MainTraderHelp.cs">
       <SubType>Form</SubType>

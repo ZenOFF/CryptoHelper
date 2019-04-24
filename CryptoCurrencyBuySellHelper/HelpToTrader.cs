@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Globalization;
 using System.Linq;
-using System.Net;
 using System.Text.RegularExpressions;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NoviceCryptoTraderAdvisor
@@ -12,9 +12,11 @@ namespace NoviceCryptoTraderAdvisor
     public partial class HelpToTrader : Form
     {
         private TechAnalisis TechAnalisisStudies = new TechAnalisis();
-        private GetSourceHTMLClient GetHTML = new GetSourceHTMLClient();
+
         private Conclusion_TechAnalisis ConclusionTechAnalisis = new Conclusion_TechAnalisis();
-        private int MaxCallPerMinute=60; //максимальное яисло запросов к API в минуту
+        //максимальное число пар
+        private int _maxCountPairs = 200;
+
         //список доступных пар
         private List<string> ListCurrenciesArray = new List<string>();
 
@@ -41,7 +43,6 @@ namespace NoviceCryptoTraderAdvisor
             InitializeComponent();
             FillingListCurrencies();
             SettingsVariable.Read("MarketPairs.xml");
-          
         }
 
         //проверка ответа сервера
@@ -60,9 +61,10 @@ namespace NoviceCryptoTraderAdvisor
         //заполняем список при запуске
         private async void FillingListCurrencies()
         {
+            GetSourceHTMLClient GetHTML = new GetSourceHTMLClient();
             //получаем весь список от API
-            string InputLongString = await GetHTML.GetMarketSummaries();
-          
+            string InputLongString = await GetHTML.GetMarketSummariesAsync();
+
             CheckConnection(InputLongString);
 
             listCurrencies.Items.Clear();
@@ -80,7 +82,7 @@ namespace NoviceCryptoTraderAdvisor
         {
             if (listCurrencies.SelectedItem != null)
             {
-                if (_activeMarketList.Count > MaxCallPerMinute)
+                if (_activeMarketList.Count > _maxCountPairs)
                 {
                     MessageBox.Show(LanguageString.DynamicElements.MessageBox_Show_MaxPair);
                     return;
@@ -138,16 +140,19 @@ namespace NoviceCryptoTraderAdvisor
         }
 
         //обновляем информацию индикаторов технического анализа
-        private void UpdateButton_Click(object sender, EventArgs e)
+        private async void UpdateButton_Click(object sender, EventArgs e)
         {
             // если есть выбранные пары
             if (_activeMarketList.Count > 0)
             {
                 //блокируем повторное нажатие до завершения обновления
                 BlockButton(false);
+
                 foreach (MarketPair marketPair in _activeMarketList)
                 {
                     marketPair.UpdateInfoAsync(ChartTimestamp);
+                    //для ограничения количества запросов к серверу
+                    await Task.Delay(2000); 
                 }
             }
         }
@@ -209,7 +214,7 @@ namespace NoviceCryptoTraderAdvisor
             {
                 foreach (var item in namesPair)
                 {
-                    if (_activeMarketList.Count > MaxCallPerMinute)
+                    if (_activeMarketList.Count > _maxCountPairs)
                     {
                         MessageBox.Show(LanguageString.DynamicElements.MessageBox_Show_MaxPair);
                         break;

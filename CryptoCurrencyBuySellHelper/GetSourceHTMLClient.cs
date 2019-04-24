@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -25,24 +24,22 @@ namespace NoviceCryptoTraderAdvisor
     {
         private readonly HttpClient client = new HttpClient();
 
-        private async Task<string> GetSourceByPageId(string urlPage) //возвращает весь код страницы
+        public GetSourceHTMLClient()
+        {
+            ServicePointManager.DefaultConnectionLimit = 1;
+        }
+
+        private async Task<string> GetSourceByPageIdAsync(string urlPage) //возвращает весь код страницы
         {
             string source = null;
-            
-            //for .net framework 4.5
-            //ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12;
-            // ServicePointManager.DefaultConnectionLimit = 1;
             try
             {
                 var response = await client.GetAsync(urlPage);
-
-                Console.WriteLine(response.StatusCode);
-
+                //Console.WriteLine(response.StatusCode + " " + urlPage);
                 if (response != null && response.StatusCode == HttpStatusCode.OK)
                 {
                     source = await response.Content.ReadAsStringAsync();
                     //response.Dispose();
-
                     return source;
                 }
 
@@ -58,16 +55,15 @@ namespace NoviceCryptoTraderAdvisor
             }
         }
 
-        public async Task<string> GetMarketSummaries()
+        public async Task<string> GetMarketSummariesAsync()
         {
-            string MarketSummariesResponse = await GetSourceByPageId("https://api.bittrex.com/api/v1.1/public/getmarketsummaries");
-
+            string MarketSummariesResponse = await GetSourceByPageIdAsync("https://api.bittrex.com/api/v1.1/public/getmarketsummaries");
             return MarketSummariesResponse;
         }
 
-        public async Task<string> GetMarketTicks(string marketName, string interval) //получаем данные графика
+        public async Task<string> GetMarketTicksAsync(string marketName, string interval) //получаем данные графика
         {
-            string ResponseChart = await GetSourceByPageId("https://international.bittrex.com/Api/v2.0/pub/market/GetTicks?marketName=" + marketName + "&tickInterval=" + interval);
+            string ResponseChart = await GetSourceByPageIdAsync("https://international.bittrex.com/Api/v2.0/pub/market/GetTicks?marketName=" + marketName + "&tickInterval=" + interval);
             return ResponseChart;
         }
     }

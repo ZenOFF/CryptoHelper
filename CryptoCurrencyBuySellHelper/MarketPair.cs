@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NoviceCryptoTraderAdvisor
 {
     internal class MarketPair
     {
-        
-
         public Point _panelLoc { get; private set; } //положение панели с элементами пары
         private int _panelElementsHeight { get; set; } = 140; //высота панели элементов
         private int _panelDistance { get; set; } = 20; //ширина между панелями
@@ -340,9 +339,10 @@ namespace NoviceCryptoTraderAdvisor
             Color colorElement = Color.Gray;
 
             //получаем общую инормацию для пары
-            string _summariesResponse = await _queryAPI.GetMarketSummaries();
+            string _summariesResponse = await _queryAPI.GetMarketSummariesAsync();
+            //await Task.Delay(1000);
             //получаем данные графика
-            string _responseChart = await _queryAPI.GetMarketTicks(_marketName, chartTimestamp);
+            string _responseChart = await _queryAPI.GetMarketTicksAsync(_marketName, chartTimestamp);
 
             if (_summariesResponse == null || _responseChart == null)
             {
