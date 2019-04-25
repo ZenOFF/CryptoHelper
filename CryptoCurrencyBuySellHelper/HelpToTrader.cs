@@ -38,11 +38,13 @@ namespace NoviceCryptoTraderAdvisor
 
         public HelpToTrader()
         {
-            SettingsVariable.LoadSettings("MarketPairs.xml");
+            SettingsVariable.LoadSettings("Settings.xml");
             System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(SettingsVariable.lagnuageApplication);
             System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(SettingsVariable.lagnuageApplication);
 
             InitializeComponent();
+
+            AddAllPair(SettingsVariable.LoadPairList("MarketPairs.xml"));
             FillingListCurrencies();
         }
 
@@ -227,15 +229,6 @@ namespace NoviceCryptoTraderAdvisor
             }
         }
 
-        //сохранение при закрытии приложения
-        private void Form1Main_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            //if (MessageBox.Show(LanguageString.DynamicElements.MessageBox_SaveQuestion, LanguageString.DynamicElements.MessageBox_SaveTextWindow, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            //{
-            //    SettingsVariable.Save("MarketPairs.xml");
-            //}
-        }
-
         //открытие настроек сортировки и фильтра
         private void Sort_Click(object sender, EventArgs e)
         {
@@ -297,7 +290,7 @@ namespace NoviceCryptoTraderAdvisor
         private void EnglishToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SettingsVariable.lagnuageApplication = "en";
-            SettingsVariable.SaveSettings("MarketPairs.xml");
+            SettingsVariable.SaveSettings("Settings.xml");
             Application.Restart();
         }
 
@@ -305,7 +298,7 @@ namespace NoviceCryptoTraderAdvisor
         private void RussianToolStripMenuItem_Click(object sender, EventArgs e)
         {
             SettingsVariable.lagnuageApplication = "ru";
-            SettingsVariable.SaveSettings("MarketPairs.xml");
+            SettingsVariable.SaveSettings("Settings.xml");
             Application.Restart();
         }
 
@@ -392,55 +385,15 @@ namespace NoviceCryptoTraderAdvisor
 
         private void SaveChosenPairsToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            //SavePair("MarketPairs.dat", ActiveMarketLabelList);
-            SettingsVariable.SaveSettings("MarketPairs.xml");
+            if (_activeMarketList.Count != 0)
+            {
+                if (MessageBox.Show(LanguageString.DynamicElements.MessageBox_SaveQuestion, LanguageString.DynamicElements.MessageBox_SaveTextWindow, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+                {
+                    SettingsVariable.SavePairList(_activeMarketList, "MarketPairs.xml");
+                }
+            }
+
             MessageBox.Show(LanguageString.DynamicElements.MessageBox_Show_SaveMenuButton);
         }
-
-        //private void SavePair(string path, List<object[]> SaveArray)
-        //{
-        //    if (SaveArray != null)
-        //    {
-        //        StreamWriter sw = new StreamWriter(path, false);
-        //        for (int i = 0; i < SaveArray.Count; i++)
-        //        {
-        //            Label GetNameMarket = SaveArray[i].GetValue(1) as Label;
-        //            sw.WriteLine(GetNameMarket.Text);
-        //        }
-        //        sw.Close();
-        //    }
-        //}
-
-        //private void LoadPair(string path)
-        //{
-        //    if (File.Exists(path) == false)
-        //    {
-        //        return; //если файла сэйва нет
-        //    }
-        //    StreamReader sr = new StreamReader(path);
-        //    while (sr.EndOfStream == false)
-        //    {
-        //        string namelb = sr.ReadLine();
-        //        if (namelb != null)
-        //        {
-        //            AddMarketElement(namelb);
-        //        }
-        //    }
-        //    sr.Close();
-        //}
-
-        //private void RSIValueLabel_Change(Label RSIValueLabel, double RSIValue)
-        //{
-        //    if (ConclusionTechAnalisis.RSIvalue_Conclusion(RSIValue) == 1)
-        //    {
-        //        RSIValueLabel.BackColor = Color.Red;
-        //        //opportunity sell 1
-        //    }
-        //    else if (ConclusionTechAnalisis.RSIvalue_Conclusion(RSIValue) == 2)
-        //    {
-        //        RSIValueLabel.BackColor = Color.Green;
-        //        //opportunity buy 2
-        //    }
-        //}
     }
 }

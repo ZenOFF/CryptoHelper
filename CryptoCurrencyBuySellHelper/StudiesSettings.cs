@@ -79,6 +79,8 @@ namespace NoviceCryptoTraderAdvisor
             SettingsVariable.fastMAPeriod = Convert.ToInt32(textBox1FastMAPeriod.Text);
             SettingsVariable.slowMAPeriod = Convert.ToInt32(textBox2SlowMAPeriod.Text);
             SettingsVariable.signalMAPeriod = Convert.ToInt32(textBox3SignalMAPeriod.Text);
+
+            SettingsVariable.SaveSettings("Settings.xml");
             Close();
         }
 

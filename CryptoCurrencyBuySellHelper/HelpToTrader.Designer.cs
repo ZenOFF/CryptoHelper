@@ -382,7 +382,6 @@
             this.MinimizeBox = false;
             this.Name = "HelpToTrader";
             this.HelpButtonClicked += new System.ComponentModel.CancelEventHandler(this.HelpToTrader_HelpButtonClicked);
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1Main_FormClosing);
             this.Resize += new System.EventHandler(this.Form1Main_Resize);
             this.groupBoxTime.ResumeLayout(false);
             this.groupBoxTime.PerformLayout();

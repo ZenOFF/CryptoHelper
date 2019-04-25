@@ -7,7 +7,7 @@ using System.Windows.Forms;
 
 namespace NoviceCryptoTraderAdvisor
 {
-    internal class MarketPair
+    public class MarketPair
     {
         public Point _panelLoc { get; private set; } //положение панели с элементами пары
         private int _panelElementsHeight { get; set; } = 140; //высота панели элементов

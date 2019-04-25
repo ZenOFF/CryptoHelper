@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Windows.Forms;
 using System.Xml.Linq;
@@ -162,6 +163,21 @@ namespace NoviceCryptoTraderAdvisor
                 MessageBox.Show("Settings file is corrupted, default settings will be loaded", "Settings", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 SetDefault();
             }
+        }
+
+        public static void SavePairList(List<MarketPair> ListPairs, string nameSaveFile)
+        {
+            XDocument xdoc = new XDocument();
+            XElement xml = new XElement("Pairs", ListPairs.Select(x => new XElement("marketName", x._marketName)));
+            xdoc.Add(xml);
+            xdoc.Save(nameSaveFile);
+        }
+
+        public static string[] LoadPairList(string nameLoadFile)
+        {
+            XDocument xmlDoc = XDocument.Load(nameLoadFile);
+            string[] listPairs = xmlDoc.Root.Descendants("marketName").Select(x => x.Value).ToArray();
+            return listPairs;
         }
     }
 }

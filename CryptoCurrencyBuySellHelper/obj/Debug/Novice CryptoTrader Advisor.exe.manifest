@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Novice CryptoTrader Advisor.exe" size="520192">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Novice CryptoTrader Advisor.exe" size="521216">
       <assemblyIdentity name="Novice CryptoTrader Advisor" version="0.8.0.3" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>g6ETT+Rt6iBNbv7QRTAz7qIFb9U8zdfrSI262NB0joI=</dsig:DigestValue>
+        <dsig:DigestValue>AAu2NdgzO/7CbzGb6jAAbTfzVcVcOFOTU992JHiSyrU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,17 +62,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>n1rKl+xyBpOmCwh4jsOQJhADkMRbSfnLgIdGyKfoXgo=</dsig:DigestValue>
+        <dsig:DigestValue>1wVLE2/CMUHaeH4Imr9OTu7mGVzaHp4buvihHHsIflU=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bin\Debug\Novice CryptoTrader Advisor.pdb" size="142848">
+  <file name="bin\Debug\Novice CryptoTrader Advisor.pdb" size="144896">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>s6jNz5j55qALMb7hmWw6dF9dadFLh6mvKp9naVQ5v2k=</dsig:DigestValue>
+      <dsig:DigestValue>2tun06QK2tHEjl2Is/DNjzsA+s236XKoxDi0HgC1O4M=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Release\Novice CryptoTrader Advisor.pdb" size="134656">
