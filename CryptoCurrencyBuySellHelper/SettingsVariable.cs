@@ -9,7 +9,7 @@ namespace NoviceCryptoTraderAdvisor
     {
         public static System.Globalization.CultureInfo ConvertCulture = new System.Globalization.CultureInfo("en");
 
-        public static string LagnuageApplication = "ru";
+        public static string lagnuageApplication = "en";
 
         public static int rsiPeriod = 14;
         public static int stochasticsPeriod = 14;
@@ -29,9 +29,13 @@ namespace NoviceCryptoTraderAdvisor
         public static int stochasticRSISellValue = 90;
         public static int stochasticRSIBuyValue = 10;
 
-        public static void SetDefault()
+        public static void SetDefault(bool lagnuageReset = true)
         {
-            LagnuageApplication = "en";
+            if (lagnuageReset)
+            {
+                lagnuageApplication = "en";
+            }
+
             rsiPeriod = 14;
             stochasticsPeriod = 14;
             stochasticsSmooth = 3;
@@ -48,11 +52,14 @@ namespace NoviceCryptoTraderAdvisor
             stochasticRSIBuyValue = 10;
         }
 
-        public static void Save(string xmlFilePath)
+        public static void SaveSettings(string xmlFilePath)
         {
             try
             {
                 XDocument xdoc = new XDocument();
+
+                XElement elmXML_lagnuageApplication = new XElement("LagnuageApplication");
+                elmXML_lagnuageApplication.Value = lagnuageApplication;
 
                 XElement elmXML_RSI = new XElement("RSI");
                 elmXML_RSI.Value = rsiPeriod.ToString();
@@ -81,6 +88,8 @@ namespace NoviceCryptoTraderAdvisor
                 //  корневой элемент
                 XElement IndicatorParam = new XElement("IndicatorParam");
                 // добавляем в корневой элемент
+
+                IndicatorParam.Add(elmXML_lagnuageApplication);
                 IndicatorParam.Add(elmXML_RSI);
                 IndicatorParam.Add(elmXML_StochasticsPeriod);
                 IndicatorParam.Add(elmXML_StochasticsSmooth);
@@ -117,12 +126,13 @@ namespace NoviceCryptoTraderAdvisor
             }
         }
 
-        public static void Read(string xmlFilePath)
+        public static void LoadSettings(string xmlFilePath)
         {
             try
             {
                 XDocument xmlDoc = XDocument.Load(xmlFilePath);
 
+                lagnuageApplication = xmlDoc.Descendants("LagnuageApplication").First().Value;
                 rsiPeriod = Convert.ToInt32(xmlDoc.Descendants("RSI").First().Value);
                 stochasticsPeriod = Convert.ToInt32(xmlDoc.Descendants("StochasticsPeriod").First().Value);
                 stochasticsSmooth = Convert.ToInt32(xmlDoc.Descendants("StochasticsSmooth").First().Value);

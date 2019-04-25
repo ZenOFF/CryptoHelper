@@ -89,11 +89,11 @@ namespace NoviceCryptoTraderAdvisor
         private void SetSortSettings_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
         {
             FormHelp.MainTraderHelp HelpForm = new FormHelp.MainTraderHelp();
-            if (SettingsVariable.LagnuageApplication == "en")
+            if (SettingsVariable.lagnuageApplication == "en")
             {
                 HelpForm.Image_Load("Resources/SortSettings.jpg");
             }
-            else if (SettingsVariable.LagnuageApplication == "ru")
+            else if (SettingsVariable.lagnuageApplication == "ru")
             {
                 HelpForm.Image_Load("Resources/SortSettingsRus.jpg");
             }

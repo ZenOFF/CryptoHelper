@@ -14,6 +14,7 @@ namespace NoviceCryptoTraderAdvisor
         private TechAnalisis TechAnalisisStudies = new TechAnalisis();
 
         private Conclusion_TechAnalisis ConclusionTechAnalisis = new Conclusion_TechAnalisis();
+
         //максимальное число пар
         private int _maxCountPairs = 200;
 
@@ -37,12 +38,12 @@ namespace NoviceCryptoTraderAdvisor
 
         public HelpToTrader()
         {
-            System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(SettingsVariable.LagnuageApplication);
-            System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(SettingsVariable.LagnuageApplication);
+            SettingsVariable.LoadSettings("MarketPairs.xml");
+            System.Threading.Thread.CurrentThread.CurrentUICulture = CultureInfo.GetCultureInfo(SettingsVariable.lagnuageApplication);
+            System.Threading.Thread.CurrentThread.CurrentCulture = CultureInfo.GetCultureInfo(SettingsVariable.lagnuageApplication);
 
             InitializeComponent();
             FillingListCurrencies();
-            SettingsVariable.Read("MarketPairs.xml");
         }
 
         //проверка ответа сервера
@@ -154,7 +155,7 @@ namespace NoviceCryptoTraderAdvisor
                     ii++;
                     marketPair.UpdateInfoAsync(ChartTimestamp);
                     //для ограничения количества запросов к серверу
-                    await Task.Delay(4000); 
+                    await Task.Delay(4000);
                 }
             }
         }
@@ -229,10 +230,10 @@ namespace NoviceCryptoTraderAdvisor
         //сохранение при закрытии приложения
         private void Form1Main_FormClosing(object sender, FormClosingEventArgs e)
         {
-            if (MessageBox.Show(LanguageString.DynamicElements.MessageBox_SaveQuestion, LanguageString.DynamicElements.MessageBox_SaveTextWindow, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                SettingsVariable.Save("MarketPairs.xml");
-            }
+            //if (MessageBox.Show(LanguageString.DynamicElements.MessageBox_SaveQuestion, LanguageString.DynamicElements.MessageBox_SaveTextWindow, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            //{
+            //    SettingsVariable.Save("MarketPairs.xml");
+            //}
         }
 
         //открытие настроек сортировки и фильтра
@@ -295,23 +296,17 @@ namespace NoviceCryptoTraderAdvisor
         //смена языка English
         private void EnglishToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SettingsVariable.LagnuageApplication = "en";
-
-            if (MessageBox.Show(LanguageString.DynamicElements.MessageBox_ChangeLangQuestion, LanguageString.DynamicElements.MessageBox_ChangeLangTextWindow, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Restart();
-            }
+            SettingsVariable.lagnuageApplication = "en";
+            SettingsVariable.SaveSettings("MarketPairs.xml");
+            Application.Restart();
         }
 
         //смена языка Russian
         private void RussianToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            SettingsVariable.LagnuageApplication = "ru";
-
-            if (MessageBox.Show(LanguageString.DynamicElements.MessageBox_ChangeLangQuestion, LanguageString.DynamicElements.MessageBox_ChangeLangTextWindow, MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-                Application.Restart();
-            }
+            SettingsVariable.lagnuageApplication = "ru";
+            SettingsVariable.SaveSettings("MarketPairs.xml");
+            Application.Restart();
         }
 
         //интервал
@@ -365,11 +360,11 @@ namespace NoviceCryptoTraderAdvisor
         private void HelpToTrader_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
         {
             FormHelp.MainTraderHelp HelpForm = new FormHelp.MainTraderHelp();
-            if (SettingsVariable.LagnuageApplication == "en")
+            if (SettingsVariable.lagnuageApplication == "en")
             {
                 HelpForm.Image_Load("Resources/Main.jpg");
             }
-            else if (SettingsVariable.LagnuageApplication == "ru")
+            else if (SettingsVariable.lagnuageApplication == "ru")
             {
                 HelpForm.Image_Load("Resources/MainRus.jpg");
             }
@@ -398,7 +393,8 @@ namespace NoviceCryptoTraderAdvisor
         private void SaveChosenPairsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //SavePair("MarketPairs.dat", ActiveMarketLabelList);
-            //MessageBox.Show(LanguageString.DynamicElements.MessageBox_Show_SaveMenuButton);
+            SettingsVariable.SaveSettings("MarketPairs.xml");
+            MessageBox.Show(LanguageString.DynamicElements.MessageBox_Show_SaveMenuButton);
         }
 
         //private void SavePair(string path, List<object[]> SaveArray)
@@ -443,57 +439,6 @@ namespace NoviceCryptoTraderAdvisor
         //    else if (ConclusionTechAnalisis.RSIvalue_Conclusion(RSIValue) == 2)
         //    {
         //        RSIValueLabel.BackColor = Color.Green;
-        //        //opportunity buy 2
-        //    }
-        //}
-
-        //private void StochasticValueLabel_Change(Label StochasticKValueLabel, Label StochasticDValueLabel, double StochasticKValue, double StochasticDValue)
-        //{
-        //    if (ConclusionTechAnalisis.StochasticValue_Conclusion(StochasticKValue, StochasticDValue) == 1)
-        //    {
-        //        StochasticKValueLabel.BackColor = Color.Red;
-        //        StochasticDValueLabel.BackColor = Color.Red;
-        //        //opportunity sell 1
-        //    }
-        //    else if (ConclusionTechAnalisis.StochasticValue_Conclusion(StochasticKValue, StochasticDValue) == 2)
-        //    {
-        //        StochasticKValueLabel.BackColor = Color.Green;
-        //        StochasticDValueLabel.BackColor = Color.Green;
-        //        //opportunity buy 2
-        //    }
-        //}
-
-        //private void StochasticRSIValueLabel_Change(Label StochasticRSIFastLabel, Label StochasticRSISlowLabel, double StochasticRSIKValue, double StochasticRSIDValue)
-        //{
-        //    if (ConclusionTechAnalisis.StochasticRSIvalue_Conclusion(StochasticRSIKValue, StochasticRSIDValue) == 1)
-        //    {
-        //        StochasticRSIFastLabel.BackColor = Color.Red;
-        //        StochasticRSISlowLabel.BackColor = Color.Red;
-        //        //opportunity sell 1
-        //    }
-        //    else if (ConclusionTechAnalisis.StochasticRSIvalue_Conclusion(StochasticRSIKValue, StochasticRSIDValue) == 2)
-        //    {
-        //        StochasticRSIFastLabel.BackColor = Color.Green;
-        //        StochasticRSISlowLabel.BackColor = Color.Green;
-        //        //opportunity buy 2
-        //    }
-        //}
-
-        //private void MACDValueLabel_Change(Label MACDValueLabel, Label MACDSignalValuelabel, Label MACDHistogramValuelabel, double[] MACDArray, double[] SignalMACDArray, double[] MACDHistogramArray)
-        //{
-        //    int ConclusionMACD = ConclusionTechAnalisis.MACDvalue_Conclusion(MACDArray, SignalMACDArray, MACDHistogramArray);
-        //    if (ConclusionMACD == 1)
-        //    {
-        //        MACDValueLabel.BackColor = Color.Red;
-        //        MACDSignalValuelabel.BackColor = Color.Red;
-        //        MACDHistogramValuelabel.BackColor = Color.Red;
-        //        //opportunity sell 1
-        //    }
-        //    else if (ConclusionMACD == 2)
-        //    {
-        //        MACDValueLabel.BackColor = Color.Green;
-        //        MACDSignalValuelabel.BackColor = Color.Green;
-        //        MACDHistogramValuelabel.BackColor = Color.Green;
         //        //opportunity buy 2
         //    }
         //}

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <IndicatorParam>
+  <LagnuageApplication>ru</LagnuageApplication>
   <RSI>14</RSI>
   <StochasticsPeriod>14</StochasticsPeriod>
   <StochasticsSmooth>3</StochasticsSmooth>

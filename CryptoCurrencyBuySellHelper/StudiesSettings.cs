@@ -95,7 +95,7 @@ namespace NoviceCryptoTraderAdvisor
         private void Button1Default_Click(object sender, EventArgs e)
         {
             //устанавливаем по дефолту
-            SettingsVariable.SetDefault();
+            SettingsVariable.SetDefault(false);
             SetCurrentValues();
         }
 
@@ -103,11 +103,11 @@ namespace NoviceCryptoTraderAdvisor
         private void StudiesSettings_HelpButtonClicked(object sender, System.ComponentModel.CancelEventArgs e)
         {
             FormHelp.MainTraderHelp HelpForm = new FormHelp.MainTraderHelp();
-            if (SettingsVariable.LagnuageApplication == "en")
+            if (SettingsVariable.lagnuageApplication == "en")
             {
                 HelpForm.Image_Load("Resources/SettingsStudies.jpg");
             }
-            else if (SettingsVariable.LagnuageApplication == "ru")
+            else if (SettingsVariable.lagnuageApplication == "ru")
             {
                 HelpForm.Image_Load("Resources/SettingsStudiesRus.jpg");
             }

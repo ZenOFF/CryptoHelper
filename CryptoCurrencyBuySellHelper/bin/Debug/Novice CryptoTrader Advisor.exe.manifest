@@ -50,7 +50,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>1G4dfVCjj9Dv1QBMlfjbLch6F7hofmtytSOr75+VZzg=</dsig:DigestValue>
+        <dsig:DigestValue>g6ETT+Rt6iBNbv7QRTAz7qIFb9U8zdfrSI262NB0joI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -62,17 +62,17 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>5sMdS075Xr+YZ4LLZay7wS+PEacvDbfHkPf1gEgDYZ0=</dsig:DigestValue>
+        <dsig:DigestValue>n1rKl+xyBpOmCwh4jsOQJhADkMRbSfnLgIdGyKfoXgo=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="bin\Debug\Novice CryptoTrader Advisor.pdb" size="144896">
+  <file name="bin\Debug\Novice CryptoTrader Advisor.pdb" size="142848">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>1gXm9uaoo3owRd+1tfJ7j5anVy6zJrW+7u6U5m9ws9A=</dsig:DigestValue>
+      <dsig:DigestValue>s6jNz5j55qALMb7hmWw6dF9dadFLh6mvKp9naVQ5v2k=</dsig:DigestValue>
     </hash>
   </file>
   <file name="bin\Release\Novice CryptoTrader Advisor.pdb" size="134656">
@@ -81,7 +81,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>mqAmxq4aQtxIYhD6dRxiUZ71L12Orr1p0PiJl0O6ds4=</dsig:DigestValue>
+      <dsig:DigestValue>5hIysN3ez6GOtCfLqegBz9Mu55UjMnX5SyvX/cQbjGc=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Novice CryptoTrader Advisor.exe.config" size="229">
