@@ -23,11 +23,15 @@ namespace NoviceCryptoTraderAdvisor
 {
     internal class GetSourceHTMLClient
     {
+        public delegate void consoleAdd(string Text);
+
+        public event consoleAdd OnConsoleSend;
+
         private readonly HttpClient client = new HttpClient();
 
         public GetSourceHTMLClient(int CountConnections)
         {
-            ServicePointManager.DefaultConnectionLimit = CountConnections;
+            ServicePointManager.DefaultConnectionLimit = CountConnections;       
         }
 
         private async Task<string> GetSourceByPageIdAsync(string urlPage) //возвращает весь код страницы
@@ -36,7 +40,10 @@ namespace NoviceCryptoTraderAdvisor
             try
             {
                 var response = await client.GetAsync(urlPage);
-                Console.WriteLine(response.StatusCode + " " + urlPage);
+                //Console.WriteLine(response.StatusCode + " " + urlPage);
+                
+                OnConsoleSend(response.StatusCode + " " + urlPage);
+
                 if (response != null && response.StatusCode == HttpStatusCode.OK)
                 {
                     source = await response.Content.ReadAsStringAsync();

@@ -38,3 +38,4 @@ C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurren
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.exe
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.pdb
 C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\Novice CryptoTrader Advisor.csprojAssemblyReference.cache
+C:\Users\Admin\Desktop\GitHubRepos\CryptoHelper\ZenOFF\CryptoHelper\CryptoCurrencyBuySellHelper\obj\Debug\NoviceCryptoTraderAdvisor.ConsoleForm.resources

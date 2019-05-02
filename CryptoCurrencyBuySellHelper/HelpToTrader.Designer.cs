@@ -70,6 +70,7 @@
             this.toolStripProgressBar1 = new System.Windows.Forms.ToolStripProgressBar();
             this.toolStripStatusLabel2 = new System.Windows.Forms.ToolStripStatusLabel();
             this.toolStripStatusLabel3 = new System.Windows.Forms.ToolStripStatusLabel();
+            this.ConsoleBtn = new System.Windows.Forms.Button();
             this.groupBoxTime.SuspendLayout();
             this.menuStrip1.SuspendLayout();
             this.statusStrip1.SuspendLayout();
@@ -358,11 +359,19 @@
             this.toolStripStatusLabel3.Name = "toolStripStatusLabel3";
             resources.ApplyResources(this.toolStripStatusLabel3, "toolStripStatusLabel3");
             // 
+            // ConsoleBtn
+            // 
+            resources.ApplyResources(this.ConsoleBtn, "ConsoleBtn");
+            this.ConsoleBtn.Name = "ConsoleBtn";
+            this.ConsoleBtn.UseVisualStyleBackColor = true;
+            this.ConsoleBtn.Click += new System.EventHandler(this.ConsoleBtn_Click);
+            // 
             // HelpToTrader
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
+            this.Controls.Add(this.ConsoleBtn);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Controls.Add(this.linkLabel1);
@@ -438,6 +447,7 @@
         private System.Windows.Forms.ToolStripProgressBar toolStripProgressBar1;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel2;
         private System.Windows.Forms.ToolStripStatusLabel toolStripStatusLabel3;
+        private System.Windows.Forms.Button ConsoleBtn;
     }
 }
 

@@ -15,6 +15,8 @@ namespace NoviceCryptoTraderAdvisor
 
         private Conclusion_TechAnalisis ConclusionTechAnalisis = new Conclusion_TechAnalisis();
 
+        private ConsoleForm consoleForm = new ConsoleForm();
+
         //максимальное число пар
         private int _maxCountPairs = 200;
 
@@ -65,6 +67,7 @@ namespace NoviceCryptoTraderAdvisor
         private async void FillingListCurrencies()
         {
             GetSourceHTMLClient GetHTML = new GetSourceHTMLClient(1);
+            GetHTML.OnConsoleSend += consoleForm.AddString;
             //получаем весь список от API
             string InputLongString = await GetHTML.GetMarketSummariesAsync();
 
@@ -394,6 +397,11 @@ namespace NoviceCryptoTraderAdvisor
             }
 
             MessageBox.Show(LanguageString.DynamicElements.MessageBox_Show_SaveMenuButton);
+        }
+
+        private void ConsoleBtn_Click(object sender, EventArgs e)
+        {
+            consoleForm.Show();
         }
     }
 }
