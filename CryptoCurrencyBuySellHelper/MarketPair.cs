@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.Drawing;
 using System.Linq;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace NoviceCryptoTraderAdvisor
@@ -15,6 +14,7 @@ namespace NoviceCryptoTraderAdvisor
         private Panel _mainPanelWithElements;
         private Control[] _elementsOnPanel = new Control[21];
         private List<MarketPair> _activeMarketList;
+        private ConsoleForm _consoleForm_Ref;
 
         public int PosY { get { return _panelLoc.Y; } }
         public string _marketName { get; set; } //имя пары
@@ -68,11 +68,18 @@ namespace NoviceCryptoTraderAdvisor
             this._mainPanelWithElements = MainPanelWithElements;
         }
 
-        public MarketPair(string MarketName, Point Left_loc, List<MarketPair> ActiveMarketList, ref Panel MainPanelWithElements, int PanelHeight, int PanelDistance) : this(MarketName, Left_loc, ActiveMarketList, ref MainPanelWithElements)
+        public MarketPair(string MarketName, Point Left_loc, List<MarketPair> ActiveMarketList, ref Panel MainPanelWithElements,
+            int PanelHeight, int PanelDistance) : this(MarketName, Left_loc, ActiveMarketList, ref MainPanelWithElements)
         {
             //инициализируем переменные
             this._panelElementsHeight = PanelHeight;//высота
             this._panelDistance = PanelDistance;//расстояние между панелями
+        }
+
+        public MarketPair(string MarketName, Point Left_loc, List<MarketPair> ActiveMarketList, ref Panel MainPanelWithElements,
+           int PanelHeight, int PanelDistance, ConsoleForm consoleForm_Ref) : this(MarketName, Left_loc, ActiveMarketList, ref MainPanelWithElements, PanelHeight, PanelDistance)
+        {
+            _consoleForm_Ref = consoleForm_Ref;
         }
 
         public void AddMarketElement()
@@ -335,6 +342,8 @@ namespace NoviceCryptoTraderAdvisor
             Label MACDHistogramValuelabel = _elementsOnPanel[20] as Label;
 
             GetSourceHTMLClient _queryAPI = new GetSourceHTMLClient(1);
+            _queryAPI.OnConsoleSend += _consoleForm_Ref.AddString;
+
             Conclusion_TechAnalisis conclusion_TechAnalisis = new Conclusion_TechAnalisis();
             Color colorElement = Color.Gray;
 

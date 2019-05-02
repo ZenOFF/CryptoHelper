@@ -15,7 +15,7 @@ namespace NoviceCryptoTraderAdvisor
 
         private Conclusion_TechAnalisis ConclusionTechAnalisis = new Conclusion_TechAnalisis();
 
-        private ConsoleForm consoleForm = new ConsoleForm();
+        public ConsoleForm consoleForm = new ConsoleForm();
 
         //максимальное число пар
         private int _maxCountPairs = 200;
@@ -104,7 +104,7 @@ namespace NoviceCryptoTraderAdvisor
             Point _left_loc = NewLocationForPanel(_activeMarketList.Count);
             //отключаем ScrollBar (из за специфики отображения компанента Panel необходимо отключить прокрутку)
             MainPanelWithScroll.AutoScroll = false;
-            MarketPair marketPair = new MarketPair(marketName, _left_loc, _activeMarketList, ref MainPanelWithScroll, _panelElementsHeight, _panelDistance);
+            MarketPair marketPair = new MarketPair(marketName, _left_loc, _activeMarketList, ref MainPanelWithScroll, _panelElementsHeight, _panelDistance, consoleForm);
             //подписываем на событие обновления StatusBar
             marketPair.onUpdateEnd += IncrementProgressBar;
             //отрисовываем элементы

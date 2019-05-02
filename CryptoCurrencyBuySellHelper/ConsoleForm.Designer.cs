@@ -28,34 +28,37 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
+            this.textBox_console = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
-            // label1
+            // textBox_console
             // 
-            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(785, 346);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Console:";
+            this.textBox_console.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBox_console.Location = new System.Drawing.Point(12, 12);
+            this.textBox_console.Multiline = true;
+            this.textBox_console.Name = "textBox_console";
+            this.textBox_console.ReadOnly = true;
+            this.textBox_console.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBox_console.Size = new System.Drawing.Size(776, 414);
+            this.textBox_console.TabIndex = 2;
+            this.textBox_console.Text = "Console ver 0.1:\r\n";
             // 
             // ConsoleForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox_console);
             this.Name = "ConsoleForm";
             this.Text = "ConsoleForm";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.ConsoleForm_FormClosing);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox textBox_console;
     }
 }

@@ -1,5 +1,4 @@
-﻿using System;
-using System.Net;
+﻿using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
 
@@ -31,7 +30,7 @@ namespace NoviceCryptoTraderAdvisor
 
         public GetSourceHTMLClient(int CountConnections)
         {
-            ServicePointManager.DefaultConnectionLimit = CountConnections;       
+            ServicePointManager.DefaultConnectionLimit = CountConnections;
         }
 
         private async Task<string> GetSourceByPageIdAsync(string urlPage) //возвращает весь код страницы
@@ -40,9 +39,7 @@ namespace NoviceCryptoTraderAdvisor
             try
             {
                 var response = await client.GetAsync(urlPage);
-                //Console.WriteLine(response.StatusCode + " " + urlPage);
-                
-                OnConsoleSend(response.StatusCode + " " + urlPage);
+                OnConsoleSend(urlPage + " " + response.StatusCode);
 
                 if (response != null && response.StatusCode == HttpStatusCode.OK)
                 {
